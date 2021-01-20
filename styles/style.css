@@ -738,8 +738,6 @@ footer,
 @media(max-width: 1199px) {
     .menu-hide {
         border-bottom: solid 1px #00a74a !important;
-        position: fixed;
-        top: 0;
         width: 100%;
         background-color: #fff;
     }
