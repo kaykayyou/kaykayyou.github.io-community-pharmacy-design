@@ -34,20 +34,12 @@ body {
     border: 0px solid black;
 }
 
-.owl-main .owl-prev {
+.owl-prev {
     left: 0;
 }
 
-.owl-main .owl-next {
-    right: 0;
-}
-
-.owl-prev {
-    left: -20px;
-}
-
 .owl-next {
-    right: -20px;
+    right: 0;
 }
 
 .owl-prev i,
