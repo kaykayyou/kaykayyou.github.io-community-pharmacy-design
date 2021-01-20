@@ -1,0 +1,772 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Pharmacy</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+    />
+</head>
+
+<body>
+    <header>
+        <div class="head1">
+            <div>
+                <img src="https://pharmacy.codilar.in/media/homepage/free_delivery1.png" alt="Free Home Delivery">Free Home Delivery
+            </div>
+        </div>
+        <div class="menu">
+            <button class="toggle-bar">
+                    <img src="https://pharmacy.codilar.in/static/version1610442364/frontend/Mgs/claue/en_US/images/icon_nav.svg" alt="Nav">
+                </button>
+            <a class="logo" href="https://pharmacy.codilar.in/" title="The CHS Community Pharmacy">
+                <img src="https://pharmacy.codilar.in/media/logo/websites/1/CHS_Community_Pharmacy_logo.png" alt="The CHS Community Pharmacy">
+            </a>
+            <div class="hide">
+                <span><i class="fa fa-search" aria-hidden="true"></i></span>
+                <div class="minicart-wrapper">
+                    <a class="action showcart" href="https://pharmacy.codilar.in/checkout/cart/">
+                        <img class="hidden-lg" id="basket-icon-mobile" src="https://pharmacy.codilar.in/static/version1610983100/frontend/Mgs/claue/en_US/images/icon_minicart.svg" alt="Minicart">
+                    </a>
+                </div>
+            </div>
+            <form class="search-bar" action="" method="GET">
+                <input id="search" type="text" name="q" value="" class="input-text form-control" maxlength="128" placeholder="What can we help you with" role="combobox" aria-expanded="true" aria-haspopup="false" aria-autocomplete="both" tabindex="-1" autocomplete="off">
+                <button class="search-icon minisearch">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+            </form>
+            <div class="header-chat">
+                <a href="https://pharmacy.codilar.in/chat-with-a-pharmacist/">
+                    <span class="text"> <span class="text-sml">Chat with a</span> Pharmacist </span>
+                    <img src="https://pharmacy.codilar.in/static/version1610442364/frontend/Mgs/claue/en_US/images/icon_chat.svg" alt="Chat">
+                </a>
+            </div>
+            <div class="sign-in">
+                <button class="signin-btn" type="button">
+                    <img src="https://pharmacy.codilar.in/static/version1610442364/frontend/Mgs/claue/en_US/images/icon_user.svg" alt=""> 
+                </button>
+                <span>Sign in</span>
+            </div>
+            <div class="header-location-search">
+                <div class="inner">
+                    <form action=" " class="deliver-search">
+                        <input id="autocomplete" type="text" name="storesearch" placeholder="Deliver to" value="" class="ui-autocomplete-input" autocomplete="off">
+                    </form>
+                </div>
+                <div class="find">
+                    <a href="" id="find-a">
+                        Find a store
+                        <img src="https://pharmacy.codilar.in/static/version1610442364/frontend/Mgs/claue/en_US/images/icon_location.svg" alt="Location">
+                    </a>
+                </div>
+            </div>
+            <div class="minicart-wrapper">
+                <a class="action showcart" href="https://pharmacy.codilar.in/checkout/cart/">
+                    <img class="hidden-lg" id="basket-icon-mobile" src="https://pharmacy.codilar.in/static/version1610466890/frontend/Mgs/claue/en_US/images/icon_minicart_white.svg" alt="Minicart">
+                </a>
+            </div>
+        </div>
+        <div class="menu-hide">
+            <div class="start">
+                <button class="toggle-bar">
+                <img src="https://pharmacy.codilar.in/static/version1610442364/frontend/Mgs/claue/en_US/images/icon_nav.svg" alt="Nav">
+            </button>
+                <a class="logo" href="https://pharmacy.codilar.in/" title="The CHS Community Pharmacy">
+                    <img src="https://pharmacy.codilar.in/media/logo/websites/1/CHS_Community_Pharmacy_logo.png" alt="The CHS Community Pharmacy">
+                </a>
+            </div>
+            <div class="hide">
+                <span><i class="fa fa-search" aria-hidden="true"></i></span>
+                <div class="minicart-wrapper">
+                    <a class="action showcart" href="https://pharmacy.codilar.in/checkout/cart/">
+                        <img class="hidden-lg" id="basket-icon-mobile" src="https://pharmacy.codilar.in/static/version1610983100/frontend/Mgs/claue/en_US/images/icon_minicart.svg" alt="Minicart">
+                    </a>
+                </div>
+            </div>
+            <nav class="nav">
+                <div class="products">
+                    <a class="product" href="">Medical Treatments</a>
+                </div>
+                <div class="products">
+                    <a class="product" href="">Personal care & Beauty</a>
+                </div>
+                <div class="products">
+                    <a class="product" href="">Vitamins & Nutrition</a>
+                </div>
+                <div class="products">
+                    <a class="product" href="">Mother & Baby</a>
+                </div>
+                <div class="products">
+                    <a class="product" href="">Health Support</a>
+                </div>
+                <div class="products">
+                    <a class="product" href="">Brands</a>
+                </div>
+                <div class="products">
+                    <a class="product" href="">Promotions</a>
+                </div>
+                <div class="product-btn">
+                    <button class="pres-btn">Presription
+                    <img src="https://pharmacy.codilar.in/static/version1610466890/frontend/Mgs/claue/en_US/images/upload.png" alt="">
+                </button>
+                </div>
+            </nav>
+    </header>
+    <main>
+        <div class="prod-div">
+            <span class="home">Home <span class="symbol">> </span><span class="prod-name">NATURE'S BOUNTY E OIL 30000 IU </span>
+            </span>
+        </div>
+        <div class="img-div">
+            <div class="slider">
+                <div class="owl-carousel owl-theme owl-main">
+                    <div class="item main-item">
+                        <img src="https://pharmacy.codilar.in/media/catalog/product/cache/872539f56e123ebefcdcb1f6944e4b27/5/0/501.0600002_1_1.jpg">
+                    </div>
+                    <div class="item main-item">
+                        <img src="https://pharmacy.codilar.in/media/catalog/product/cache/6d9fbb8adc76b99f917b0d4d58e63bb9/5/0/501.0600001_1_1.jpg">
+                    </div>
+                    <div class="item main-item">
+                        <img src="https://pharmacy.codilar.in/media/catalog/product/cache/872539f56e123ebefcdcb1f6944e4b27/5/0/501.0400502_1_1.jpg">
+                    </div>
+                    <div class="item main-item">
+                        <img src="https://pharmacy.codilar.in/media/catalog/product/cache/872539f56e123ebefcdcb1f6944e4b27/5/0/501.0400501_1_1.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="prod-desc">
+                <h1>NATURE'S BOUNTY E OIL 30000 IU</h1>
+                <div class="pd-new">
+                    <span>3 Chenes</span>
+                    <a href="">
+                        <i class="far fa-heart"></i> Add to wish list
+                    </a>
+                </div>
+                <p class="desc">Contributes to a healthy skin.<span>Size: 74 ML</span></p>
+                <div class="price">
+                    <span class="cost">AED 89.00</span>
+                    <div class="quantity">
+                        <span><img src="https://pharmacy.codilar.in/static/version1610534441/frontend/Mgs/claue/en_US/images/Path_3901.svg" alt=""></span>
+                        <span class="count">1</span>
+                        <span><img src="https://pharmacy.codilar.in/static/version1610534441/frontend/Mgs/claue/en_US/images/Path_3902.svg" alt=""></span>
+                    </div>
+                    <button class="add-tb">
+                        <span>Add to basket</span>
+                        <img src="https://pharmacy.codilar.in/static/version1610534441/frontend/Mgs/claue/en_US/images/icon_add_to_basket.svg" alt="Add to basket">
+                    </button>
+                </div>
+                <div class="sub-price">
+                    <div class="quantity">
+                        <span><img src="https://pharmacy.codilar.in/static/version1610534441/frontend/Mgs/claue/en_US/images/Path_3901.svg" alt=""></span>
+                        <span class="count">1</span>
+                        <span><img src="https://pharmacy.codilar.in/static/version1610534441/frontend/Mgs/claue/en_US/images/Path_3902.svg" alt=""></span>
+                    </div>
+                    <button class="add-tb">
+                        <span>Add to basket</span>
+                        <img src="https://pharmacy.codilar.in/static/version1610534441/frontend/Mgs/claue/en_US/images/icon_add_to_basket.svg" alt="Add to basket">
+                    </button>
+                </div>
+                <div class="delivery-info">
+                    <h6>Same day delivery on orders placed before 9 PM</h6>
+                    <div class="blocks">
+                        <div class="time">
+                            <span><img src="https://pharmacy.codilar.in/media/wysiwyg/icon_delivery_time.png" alt=""></span>
+                            <span class="text"> <strong>Delivery within 2 hours</strong> at your preferred location </span>
+                        </div>
+                        <div class="del">
+                            <span><img src="https://pharmacy.codilar.in/media/wysiwyg/icon_free_shipping.png" alt=""></span>
+                            <span class="text"> <strong>Free delivery on all orders</strong> no minimum spend </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="desc-div">
+            <div class="product-information-details">
+                <h2>Description</h2>
+                <p>Pure enough to swallow or to apply directly to your skin, our Vitamin E-Oil provides antioxidant support and is needed for healthy skin. When applied to the skin, Vitamin E can help maintain your skin’s natural moisture, which contributes
+                    to a radiant, youthful looking complexion.Benefits: Contributes to healthy skin,Apply to skin as a moisturizer,Pure Enough to Take Orally.</p>
+            </div>
+        </div>
+        <div class="sim-prod">
+            <div class="grid-div">
+                <div class="content-heading">
+                    <h3>
+                        <span>Similar Products</span>
+                    </h3>
+                </div>
+                <div>
+                    <div>
+                        <div>
+                            <div class="owl-carousel owl-theme owl-car">
+                                <div class="item">
+                                    <img src="https://pharmacy.codilar.in/media/catalog/product/cache/c5b5dcd805fa5483f6aaef11a1a57eb4/5/0/501.0600002_1_1.jpg" alt="">
+                                    <figcaption class="cap">
+                                        <div class="product details product-item-details">
+                                            <h5 class="product name product-item-name">
+                                                <a class="product-item-link" href="https://pharmacy.codilar.in/nature-s-bounty-c-500mg-w-rhips-chew-90s-tab.html">
+                                            NATURE'S BOUNTY C-500 MG W/R HIPS CHEW TABLET											</a>
+                                            </h5>
+                                            <div class="product-addtional-informations">
+                                                <ul>
+                                                    <li>3 Chenes</li>
+                                                    <li class="product-addtional-informations-quantity">90 Chewable Tablet</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-add-tocart-price">
+                                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="599" data-price-box="product-id-599">
+                                                    <span><strong>AED 59.00</strong></span>
+                                                </div>
+                                                <button class="btn-cart" type="button" title="Add to Basket">
+                                                <img src="https://pharmacy.codilar.in/static/version1610779738/frontend/Mgs/claue/en_US/images/icon_add_to_basket.svg" alt="Add to basket">
+                                            </button>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </div>
+                                <div class="item">
+                                    <img src="https://pharmacy.codilar.in/media/catalog/product/cache/c5b5dcd805fa5483f6aaef11a1a57eb4/5/0/501.0600002_1_1.jpg" alt="">
+                                    <figcaption class="cap">
+                                        <div class="product details product-item-details">
+                                            <h5 class="product name product-item-name">
+                                                <a class="product-item-link" href="https://pharmacy.codilar.in/nature-s-bounty-c-500mg-w-rhips-chew-90s-tab.html">
+                                            NATURE'S BOUNTY C-500 MG W/R HIPS CHEW TABLET											</a>
+                                            </h5>
+                                            <div class="product-addtional-informations">
+                                                <ul>
+                                                    <li>3 Chenes</li>
+                                                    <li class="product-addtional-informations-quantity">90 Chewable Tablet</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-add-tocart-price">
+                                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="599" data-price-box="product-id-599">
+                                                    <span><strong>AED 59.00</strong></span>
+                                                </div>
+                                                <button class="btn-cart" type="button" title="Add to Basket">
+                                                <img src="https://pharmacy.codilar.in/static/version1610779738/frontend/Mgs/claue/en_US/images/icon_add_to_basket.svg" alt="Add to basket">
+                                            </button>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </div>
+                                <div class="item">
+                                    <img src="https://pharmacy.codilar.in/media/catalog/product/cache/c5b5dcd805fa5483f6aaef11a1a57eb4/5/0/501.0600002_1_1.jpg" alt="">
+                                    <figcaption class="cap">
+                                        <div class="product details product-item-details">
+                                            <h5 class="product name product-item-name">
+                                                <a class="product-item-link" href="https://pharmacy.codilar.in/nature-s-bounty-c-500mg-w-rhips-chew-90s-tab.html">
+                                            NATURE'S BOUNTY C-500 MG W/R HIPS CHEW TABLET											</a>
+                                            </h5>
+                                            <div class="product-addtional-informations">
+                                                <ul>
+                                                    <li>3 Chenes</li>
+                                                    <li class="product-addtional-informations-quantity">90 Chewable Tablet</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-add-tocart-price">
+                                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="599" data-price-box="product-id-599">
+                                                    <span><strong>AED 59.00</strong></span>
+                                                </div>
+                                                <button class="btn-cart" type="button" title="Add to Basket">
+                                                <img src="https://pharmacy.codilar.in/static/version1610779738/frontend/Mgs/claue/en_US/images/icon_add_to_basket.svg" alt="Add to basket">
+                                            </button>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </div>
+                                <div class="item">
+                                    <img src="https://pharmacy.codilar.in/media/catalog/product/cache/c5b5dcd805fa5483f6aaef11a1a57eb4/5/0/501.0600002_1_1.jpg" alt="">
+                                    <figcaption class="cap">
+                                        <div class="product details product-item-details">
+                                            <h5 class="product name product-item-name">
+                                                <a class="product-item-link" href="https://pharmacy.codilar.in/nature-s-bounty-c-500mg-w-rhips-chew-90s-tab.html">
+                                            NATURE'S BOUNTY C-500 MG W/R HIPS CHEW TABLET											</a>
+                                            </h5>
+                                            <div class="product-addtional-informations">
+                                                <ul>
+                                                    <li>3 Chenes</li>
+                                                    <li class="product-addtional-informations-quantity">90 Chewable Tablet</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-add-tocart-price">
+                                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="599" data-price-box="product-id-599">
+                                                    <span><strong>AED 59.00</strong></span>
+                                                </div>
+                                                <button class="btn-cart" type="button" title="Add to Basket">
+                                                <img src="https://pharmacy.codilar.in/static/version1610779738/frontend/Mgs/claue/en_US/images/icon_add_to_basket.svg" alt="Add to basket">
+                                            </button>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </div>
+                                <div class="item">
+                                    <img src="https://pharmacy.codilar.in/media/catalog/product/cache/c5b5dcd805fa5483f6aaef11a1a57eb4/5/0/501.0600002_1_1.jpg" alt="">
+                                    <figcaption class="cap">
+                                        <div class="product details product-item-details">
+                                            <h5 class="product name product-item-name">
+                                                <a class="product-item-link" href="https://pharmacy.codilar.in/nature-s-bounty-c-500mg-w-rhips-chew-90s-tab.html">
+                                            NATURE'S BOUNTY C-500 MG W/R HIPS CHEW TABLET											</a>
+                                            </h5>
+                                            <div class="product-addtional-informations">
+                                                <ul>
+                                                    <li>3 Chenes</li>
+                                                    <li class="product-addtional-informations-quantity">90 Chewable Tablet</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-add-tocart-price">
+                                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="599" data-price-box="product-id-599">
+                                                    <span><strong>AED 59.00</strong></span>
+                                                </div>
+                                                <button class="btn-cart" type="button" title="Add to Basket">
+                                                <img src="https://pharmacy.codilar.in/static/version1610779738/frontend/Mgs/claue/en_US/images/icon_add_to_basket.svg" alt="Add to basket">
+                                            </button>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </div>
+                                <div class="item">
+                                    <img src="https://pharmacy.codilar.in/media/catalog/product/cache/c5b5dcd805fa5483f6aaef11a1a57eb4/5/0/501.0600002_1_1.jpg" alt="">
+                                    <figcaption class="cap">
+                                        <div class="product details product-item-details">
+                                            <h5 class="product name product-item-name">
+                                                <a class="product-item-link" href="https://pharmacy.codilar.in/nature-s-bounty-c-500mg-w-rhips-chew-90s-tab.html">
+                                            NATURE'S BOUNTY C-500 MG W/R HIPS CHEW TABLET											</a>
+                                            </h5>
+                                            <div class="product-addtional-informations">
+                                                <ul>
+                                                    <li>3 Chenes</li>
+                                                    <li class="product-addtional-informations-quantity">90 Chewable Tablet</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-add-tocart-price">
+                                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="599" data-price-box="product-id-599">
+                                                    <span><strong>AED 59.00</strong></span>
+                                                </div>
+                                                <button class="btn-cart" type="button" title="Add to Basket">
+                                                <img src="https://pharmacy.codilar.in/static/version1610779738/frontend/Mgs/claue/en_US/images/icon_add_to_basket.svg" alt="Add to basket">
+                                            </button>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </div>
+                                <div class="item">
+                                    <img src="https://pharmacy.codilar.in/media/catalog/product/cache/c5b5dcd805fa5483f6aaef11a1a57eb4/5/0/501.0600002_1_1.jpg" alt="">
+                                    <figcaption class="cap">
+                                        <div class="product details product-item-details">
+                                            <h5 class="product name product-item-name">
+                                                <a class="product-item-link" href="https://pharmacy.codilar.in/nature-s-bounty-c-500mg-w-rhips-chew-90s-tab.html">
+                                            NATURE'S BOUNTY C-500 MG W/R HIPS CHEW TABLET											</a>
+                                            </h5>
+                                            <div class="product-addtional-informations">
+                                                <ul>
+                                                    <li>3 Chenes</li>
+                                                    <li class="product-addtional-informations-quantity">90 Chewable Tablet</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-add-tocart-price">
+                                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="599" data-price-box="product-id-599">
+                                                    <span><strong>AED 59.00</strong></span>
+                                                </div>
+                                                <button class="btn-cart" type="button" title="Add to Basket">
+                                                <img src="https://pharmacy.codilar.in/static/version1610779738/frontend/Mgs/claue/en_US/images/icon_add_to_basket.svg" alt="Add to basket">
+                                            </button>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="prod-like">
+            <div class="grid-div">
+                <div class="content-heading">
+                    <h3>
+                        <span>Products you may like</span>
+                    </h3>
+                </div>
+                <div>
+                    <div>
+                        <div>
+                            <div class="owl-carousel owl-theme owl-car">
+                                <div class="item">
+                                    <img src="https://pharmacy.codilar.in/media/catalog/product/cache/c5b5dcd805fa5483f6aaef11a1a57eb4/5/0/501.0600002_1_1.jpg" alt="">
+                                    <figcaption class="cap">
+                                        <div class="product details product-item-details">
+                                            <h5 class="product name product-item-name">
+                                                <a class="product-item-link" href="https://pharmacy.codilar.in/nature-s-bounty-c-500mg-w-rhips-chew-90s-tab.html">
+                                            NATURE'S BOUNTY C-500 MG W/R HIPS CHEW TABLET											</a>
+                                            </h5>
+                                            <div class="product-addtional-informations">
+                                                <ul>
+                                                    <li>3 Chenes</li>
+                                                    <li class="product-addtional-informations-quantity">90 Chewable Tablet</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-add-tocart-price">
+                                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="599" data-price-box="product-id-599">
+                                                    <span><strong>AED 59.00</strong></span>
+                                                </div>
+                                                <button class="btn-cart" type="button" title="Add to Basket">
+                                                <img src="https://pharmacy.codilar.in/static/version1610779738/frontend/Mgs/claue/en_US/images/icon_add_to_basket.svg" alt="Add to basket">
+                                            </button>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </div>
+                                <div class="item">
+                                    <img src="https://pharmacy.codilar.in/media/catalog/product/cache/c5b5dcd805fa5483f6aaef11a1a57eb4/5/0/501.0600002_1_1.jpg" alt="">
+                                    <figcaption class="cap">
+                                        <div class="product details product-item-details">
+                                            <h5 class="product name product-item-name">
+                                                <a class="product-item-link" href="https://pharmacy.codilar.in/nature-s-bounty-c-500mg-w-rhips-chew-90s-tab.html">
+                                            NATURE'S BOUNTY C-500 MG W/R HIPS CHEW TABLET											</a>
+                                            </h5>
+                                            <div class="product-addtional-informations">
+                                                <ul>
+                                                    <li>3 Chenes</li>
+                                                    <li class="product-addtional-informations-quantity">90 Chewable Tablet</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-add-tocart-price">
+                                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="599" data-price-box="product-id-599">
+                                                    <span><strong>AED 59.00</strong></span>
+                                                </div>
+                                                <button class="btn-cart" type="button" title="Add to Basket">
+                                                <img src="https://pharmacy.codilar.in/static/version1610779738/frontend/Mgs/claue/en_US/images/icon_add_to_basket.svg" alt="Add to basket">
+                                            </button>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </div>
+                                <div class="item">
+                                    <img src="https://pharmacy.codilar.in/media/catalog/product/cache/c5b5dcd805fa5483f6aaef11a1a57eb4/5/0/501.0600002_1_1.jpg" alt="">
+                                    <figcaption class="cap">
+                                        <div class="product details product-item-details">
+                                            <h5 class="product name product-item-name">
+                                                <a class="product-item-link" href="https://pharmacy.codilar.in/nature-s-bounty-c-500mg-w-rhips-chew-90s-tab.html">
+                                            NATURE'S BOUNTY C-500 MG W/R HIPS CHEW TABLET											</a>
+                                            </h5>
+                                            <div class="product-addtional-informations">
+                                                <ul>
+                                                    <li>3 Chenes</li>
+                                                    <li class="product-addtional-informations-quantity">90 Chewable Tablet</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-add-tocart-price">
+                                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="599" data-price-box="product-id-599">
+                                                    <span><strong>AED 59.00</strong></span>
+                                                </div>
+                                                <button class="btn-cart" type="button" title="Add to Basket">
+                                                <img src="https://pharmacy.codilar.in/static/version1610779738/frontend/Mgs/claue/en_US/images/icon_add_to_basket.svg" alt="Add to basket">
+                                            </button>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </div>
+                                <div class="item">
+                                    <img src="https://pharmacy.codilar.in/media/catalog/product/cache/c5b5dcd805fa5483f6aaef11a1a57eb4/5/0/501.0600002_1_1.jpg" alt="">
+                                    <figcaption class="cap">
+                                        <div class="product details product-item-details">
+                                            <h5 class="product name product-item-name">
+                                                <a class="product-item-link" href="https://pharmacy.codilar.in/nature-s-bounty-c-500mg-w-rhips-chew-90s-tab.html">
+                                            NATURE'S BOUNTY C-500 MG W/R HIPS CHEW TABLET											</a>
+                                            </h5>
+                                            <div class="product-addtional-informations">
+                                                <ul>
+                                                    <li>3 Chenes</li>
+                                                    <li class="product-addtional-informations-quantity">90 Chewable Tablet</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-add-tocart-price">
+                                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="599" data-price-box="product-id-599">
+                                                    <span><strong>AED 59.00</strong></span>
+                                                </div>
+                                                <button class="btn-cart" type="button" title="Add to Basket">
+                                                <img src="https://pharmacy.codilar.in/static/version1610779738/frontend/Mgs/claue/en_US/images/icon_add_to_basket.svg" alt="Add to basket">
+                                            </button>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </div>
+                                <div class="item">
+                                    <img src="https://pharmacy.codilar.in/media/catalog/product/cache/c5b5dcd805fa5483f6aaef11a1a57eb4/5/0/501.0600002_1_1.jpg" alt="">
+                                    <figcaption class="cap">
+                                        <div class="product details product-item-details">
+                                            <h5 class="product name product-item-name">
+                                                <a class="product-item-link" href="https://pharmacy.codilar.in/nature-s-bounty-c-500mg-w-rhips-chew-90s-tab.html">
+                                            NATURE'S BOUNTY C-500 MG W/R HIPS CHEW TABLET											</a>
+                                            </h5>
+                                            <div class="product-addtional-informations">
+                                                <ul>
+                                                    <li>3 Chenes</li>
+                                                    <li class="product-addtional-informations-quantity">90 Chewable Tablet</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-add-tocart-price">
+                                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="599" data-price-box="product-id-599">
+                                                    <span><strong>AED 59.00</strong></span>
+                                                </div>
+                                                <button class="btn-cart" type="button" title="Add to Basket">
+                                                <img src="https://pharmacy.codilar.in/static/version1610779738/frontend/Mgs/claue/en_US/images/icon_add_to_basket.svg" alt="Add to basket">
+                                            </button>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </div>
+                                <div class="item">
+                                    <img src="https://pharmacy.codilar.in/media/catalog/product/cache/c5b5dcd805fa5483f6aaef11a1a57eb4/5/0/501.0600002_1_1.jpg" alt="">
+                                    <figcaption class="cap">
+                                        <div class="product details product-item-details">
+                                            <h5 class="product name product-item-name">
+                                                <a class="product-item-link" href="https://pharmacy.codilar.in/nature-s-bounty-c-500mg-w-rhips-chew-90s-tab.html">
+                                            NATURE'S BOUNTY C-500 MG W/R HIPS CHEW TABLET											</a>
+                                            </h5>
+                                            <div class="product-addtional-informations">
+                                                <ul>
+                                                    <li>3 Chenes</li>
+                                                    <li class="product-addtional-informations-quantity">90 Chewable Tablet</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-add-tocart-price">
+                                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="599" data-price-box="product-id-599">
+                                                    <span><strong>AED 59.00</strong></span>
+                                                </div>
+                                                <button class="btn-cart" type="button" title="Add to Basket">
+                                                <img src="https://pharmacy.codilar.in/static/version1610779738/frontend/Mgs/claue/en_US/images/icon_add_to_basket.svg" alt="Add to basket">
+                                            </button>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </div>
+                                <div class="item">
+                                    <img src="https://pharmacy.codilar.in/media/catalog/product/cache/c5b5dcd805fa5483f6aaef11a1a57eb4/5/0/501.0600002_1_1.jpg" alt="">
+                                    <figcaption class="cap">
+                                        <div class="product details product-item-details">
+                                            <h5 class="product name product-item-name">
+                                                <a class="product-item-link" href="https://pharmacy.codilar.in/nature-s-bounty-c-500mg-w-rhips-chew-90s-tab.html">
+                                            NATURE'S BOUNTY C-500 MG W/R HIPS CHEW TABLET											</a>
+                                            </h5>
+                                            <div class="product-addtional-informations">
+                                                <ul>
+                                                    <li>3 Chenes</li>
+                                                    <li class="product-addtional-informations-quantity">90 Chewable Tablet</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-add-tocart-price">
+                                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="599" data-price-box="product-id-599">
+                                                    <span><strong>AED 59.00</strong></span>
+                                                </div>
+                                                <button class="btn-cart" type="button" title="Add to Basket">
+                                                <img src="https://pharmacy.codilar.in/static/version1610779738/frontend/Mgs/claue/en_US/images/icon_add_to_basket.svg" alt="Add to basket">
+                                            </button>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="grid-div">
+            <div class="content-heading">
+                <h3>
+                    <span>Recently viewed</span>
+                </h3>
+            </div>
+            <div class="owl-carousel owl-theme owl-car">
+                <div class="item">
+                    <img src="https://pharmacy.codilar.in/media/catalog/product/cache/c5b5dcd805fa5483f6aaef11a1a57eb4/5/0/501.0600002_1_1.jpg" alt="">
+                    <figcaption class="cap">
+                        <div class="product details product-item-details">
+                            <h5 class="product name product-item-name">
+                                <a class="product-item-link" href="https://pharmacy.codilar.in/nature-s-bounty-c-500mg-w-rhips-chew-90s-tab.html">
+                                NATURE'S BOUNTY C-500 MG W/R HIPS CHEW TABLET											</a>
+                            </h5>
+                            <div class="product-addtional-informations">
+                                <ul>
+                                    <li>3 Chenes</li>
+                                    <li class="product-addtional-informations-quantity">90 Chewable Tablet</li>
+                                </ul>
+                            </div>
+                            <div class="product-add-tocart-price">
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="599" data-price-box="product-id-599">
+                                    <span><strong>AED 59.00</strong></span>
+                                </div>
+                                <button class="btn-cart" type="button" title="Add to Basket">
+                                    <img src="https://pharmacy.codilar.in/static/version1610779738/frontend/Mgs/claue/en_US/images/icon_add_to_basket.svg" alt="Add to basket">
+                                </button>
+                            </div>
+                        </div>
+                    </figcaption>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="del-div">
+            <div>
+                <div class="owl-carousel owl-theme owl-car-pro">
+                    <div class="item">
+                        <div class="container">
+                            <img src="https://pharmacy.codilar.in/media/wysiwyg/icons/delivery.png" alt="">
+                            <h4>Free delivery <br> on all orders</h4>
+                            <p>We prefer to keep it clear:</p>
+                            <ul>
+                                <li style="margin-bottom: 5px;">No service charges.</li>
+                                <li>No minimum spend.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="our-facility-content">
+                                <img src="https://pharmacy.codilar.in/media/wysiwyg/icons/same-day.png" alt="">
+                                <h4>Same day delivery <br> within 2 hours</h4>
+                                <ul>
+                                    <li>Same day delivery on orders placed before 9 PM.</li>
+                                    <li>Receive your products within 2 hours at your preferred location.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="our-facility-content">
+                                <img src="https://pharmacy.codilar.in/media/wysiwyg/icons/heart.png" alt="">
+                                <h4>Taking care of our <br> community since 2006</h4>
+                                <ul>
+                                    <li>Genuine pharmacy care for your well-being.</li>
+                                    <li>Over 15 pharmacies in the UAE.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="top">
+            <div class="footer-container">
+
+                <div class="middle-footer">
+                    <div class="mid-foot">
+                        <div class="img-icon">
+                            <div class="margin-bottom30">
+                                <a href="https://pharmacy.codilar.in/"><img src="https://pharmacy.codilar.in/static/version1610649516/frontend/Mgs/claue/en_US/images/CHS_logo_footer.svg" alt="Claue" width="220"></a>
+                                <ul class="social-link margin-left35 margin-top15">
+                                    <li>
+                                        <a class="desktop-only" href="https://web.whatsapp.com/send?phone=971565376313" target="_blank" rel="noopener"><img src="https://pharmacy.codilar.in/static/version1610649516/frontend/Mgs/claue/en_US/images/whatsup.svg" width="28"></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.facebook.com/CHSpharmacyUAE" target="_blank" rel="noopener"><img src="https://pharmacy.codilar.in/static/version1610649516/frontend/Mgs/claue/en_US/images/facebook.svg" width="28"></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/CHSpharmacyUAE/" target="_blank" rel="noopener"><img src="https://pharmacy.codilar.in/static/version1610649516/frontend/Mgs/claue/en_US/images/insta.svg" width="28"></a>
+                                    </li>
+                                </ul>
+                                <div class="arc">
+                                    <img src="https://pharmacy.codilar.in/static/version1610649516/frontend/Mgs/claue/en_US/images/white-icon-footer.png" alt="Location">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cust-serv">
+                            <h5>Customer Services</h5>
+                            <ul>
+                                <li><a href="https://pharmacy.codilar.in/chat-with-a-pharmacist/">Chat with a pharmacist</a></li>
+                                <li><a href="https://pharmacy.codilar.in/faq/">Frequently Asked Questions</a></li>
+                                <li class="footer-delivry-info"><a href="https://pharmacy.codilar.in/faq/">Delivery information</a></li>
+                                <li><a href="https://pharmacy.codilar.in/promotions.html/">Promotions</a></li>
+                                <li><a href="https://pharmacy.codilar.in/contact-us/">Contact</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="last-div">
+                            <div class="about">
+                                <h5>About CHS Community Pharmacy</h5>
+                                <ul>
+                                    <li><a href="">About us</a></li>
+                                    <li><a href="">Find a store</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="social-links margin-left35 margin-top15">
+                                    <li>
+                                        <a class="desktop-only" href="https://web.whatsapp.com/send?phone=971565376313" target="_blank" rel="noopener"><img src="https://pharmacy.codilar.in/static/version1610649516/frontend/Mgs/claue/en_US/images/whatsup.svg" width="28"></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.facebook.com/CHSpharmacyUAE" target="_blank" rel="noopener"><img src="https://pharmacy.codilar.in/static/version1610649516/frontend/Mgs/claue/en_US/images/facebook.svg" width="28"></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/CHSpharmacyUAE/" target="_blank" rel="noopener"><img src="https://pharmacy.codilar.in/static/version1610649516/frontend/Mgs/claue/en_US/images/insta.svg" width="28"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sign-up">
+                                <h5>Sign Up for us newsletter</h5>
+                                <ul>
+                                    <li>
+                                        <p>Subscribe to our newsletter and be the first to know about new offers and promotions</p>
+                                    </li>
+                                    <li>
+                                        <div class="join">
+                                            <input type="text" placeholder="Enter email address">
+                                            <button>Join</button>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="mid-foot two">
+                        <div class="rights one"><address>© 2020 CHS. All rights reserved.</address></div>
+                        <div class="rights ">
+                            <a href="https://pharmacy.codilar.in/privacy-policy/">Privacy policy</a> |
+                            <a href="https://pharmacy.codilar.in/terms-conditions/"> Terms &amp; conditions</a>
+                        </div>
+                        <div class="rights"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right-footer">
+
+            <div class="copyright-img">
+                <img src="https://pharmacy.codilar.in/static/version1610649516/frontend/Mgs/claue/en_US/images/footer_cpy/ftr_cpy1.png">
+            </div>
+            <div class="copyright-img">
+                <img src="https://pharmacy.codilar.in/static/version1610649516/frontend/Mgs/claue/en_US/images/footer_cpy/ftr_cpy2.png">
+            </div>
+            <div class="copyright-img">
+                <img src="https://pharmacy.codilar.in/static/version1610649516/frontend/Mgs/claue/en_US/images/footer_cpy/ftr_cpy3.png">
+            </div>
+            <div class="copyright-img">
+                <img src="https://pharmacy.codilar.in/static/version1610649516/frontend/Mgs/claue/en_US/images/footer_cpy/ftr_cpy4.png">
+            </div>
+            <div class="copyright-img">
+                <img src="https://pharmacy.codilar.in/static/version1610649516/frontend/Mgs/claue/en_US/images/footer_cpy/ftr_cpy5.png">
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js " integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin=" anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js " integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin=" anonymous "></script>
+    <script type="text/javascript " src="scripts/slider.js "></script>
+
+</body>
+
+</html>
