@@ -12,7 +12,8 @@ li {
 }
 
 header {
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     background-color: #fff;
 }
@@ -44,6 +45,10 @@ main {
     padding: 1rem 2rem;
     max-width: 1440px;
     margin: auto;
+}
+
+main {
+    margin: 14.375rem auto 0;
 }
 
 .menu,
@@ -193,9 +198,24 @@ a {
     height: 100%;
 }
 
-.action img {
+.minicart-wrapper {
+    background-color: #00a74a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showcart img {
     background-color: #00a74a;
     padding: 0.5rem;
+    border-radius: 3px;
+}
+
+.minicart-wrapper .nos {
+    color: #fff;
+    background-color: #ffffff36;
+    padding: 0.5rem 0.8rem;
+    margin: 0.5rem;
     border-radius: 3px;
 }
 
@@ -346,6 +366,11 @@ a {
     font-weight: 500;
 }
 
+.cost span {
+    font-size: 34px;
+    font-weight: 500;
+}
+
 .quantity {
     display: flex;
     align-items: center;
@@ -426,6 +451,22 @@ a {
     line-height: 26px;
 }
 
+.disc {
+    padding: 0.6rem;
+    position: absolute;
+    color: #fff;
+    background-color: #00a74a;
+    top: 1px;
+    left: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 14px;
+}
+
+.disc span {
+    display: block;
+}
+
 .grid-div {
     padding-top: 30px;
 }
@@ -442,7 +483,7 @@ a {
 .content-heading h3 {
     font-size: 22px;
     line-height: 30px;
-    font-weight: 700;
+    font-weight: 900;
     display: block;
     color: #000;
     margin: 0;
@@ -512,7 +553,7 @@ footer,
 .arc {
     position: absolute;
     left: 0px;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
 }
 
 .arc img {
@@ -664,6 +705,7 @@ footer,
 }
 
 .item {
+    position: relative;
     border: solid 1px #F7F7F7;
 }
 
@@ -771,6 +813,15 @@ footer,
         justify-content: space-between;
         padding: 2rem;
     }
+    main {
+        margin: 7.5rem auto 0;
+    }
+    .arc {
+        margin-top: 3rem;
+    }
+    .arc img {
+        width: 220px;
+    }
 }
 
 @media (max-width:900px) {
@@ -802,7 +853,12 @@ footer,
     .social-link {
         display: none;
     }
+    .sm-icons {
+        width: 200px;
+        margin: auto;
+    }
     .social-links {
+        padding-left: 0px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -816,6 +872,12 @@ footer,
     .container li,
     .container p {
         text-align: center;
+    }
+    .arc {
+        margin-top: 9rem;
+    }
+    .arc img {
+        width: 184px;
     }
 }
 

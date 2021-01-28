@@ -34,6 +34,15 @@ body {
     border: 0px solid black;
 }
 
+
+/* .owl-main .owl-prev {
+    left: 0;
+}
+
+.owl-main .owl-next {
+    right: 0;
+} */
+
 .owl-prev {
     left: 0;
 }
