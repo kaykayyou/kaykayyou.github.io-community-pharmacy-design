@@ -18,17 +18,24 @@
 <body>
     <header>
         <div class="head1">
-            <div>
-                <img src="https://pharmacy.codilar.in/media/homepage/free_delivery1.png" alt="Free Home Delivery">Free Home Delivery
+            <div class="head2">
+                <div class="head3">
+                    <div class="del-icon">
+                        <img src="https://pharmacy.codilar.in/media/homepage/free_delivery1.png" alt="Free Home Delivery">
+                    </div>
+                    <div>Free Home Delivery</div>
+                </div>
             </div>
         </div>
         <div class="menu">
             <!-- <button class="toggle-bar">
                     <img src="https://pharmacy.codilar.in/static/version1610442364/frontend/Mgs/claue/en_US/images/icon_nav.svg" alt="Nav">
                 </button> -->
-            <a class="logo" href="https://pharmacy.codilar.in/" title="The CHS Community Pharmacy">
-                <img src="https://pharmacy.codilar.in/media/logo/websites/1/CHS_Community_Pharmacy_logo.png" alt="The CHS Community Pharmacy">
-            </a>
+            <div class="logo-div">
+                <a class="logo" href="https://pharmacy.codilar.in/" title="The CHS Community Pharmacy">
+                    <img src="https://pharmacy.codilar.in/media/logo/websites/1/CHS_Community_Pharmacy_logo.png" alt="The CHS Community Pharmacy">
+                </a>
+            </div>
             <div class="hide">
                 <span><i class="fa fa-search" aria-hidden="true"></i></span>
                 <div class="minicart-wrapper">
@@ -37,42 +44,48 @@
                     </a>
                 </div>
             </div>
-            <form class="search-bar" action="" method="GET">
-                <input id="search" type="text" name="q" value="" class="input-text form-control" maxlength="128" placeholder="What can we help you with" role="combobox" aria-expanded="true" aria-haspopup="false" aria-autocomplete="both" tabindex="-1" autocomplete="off">
-                <button class="search-icon minisearch">
+            <div class="menu-contain">
+                <form class="search-bar" action="" method="GET">
+                    <input id="search" type="text" name="q" value="" class="input-text form-control" maxlength="128" placeholder="What can we help you with" role="combobox" aria-expanded="true" aria-haspopup="false" aria-autocomplete="both" tabindex="-1" autocomplete="off">
+                    <button class="search-icon minisearch">
                     <i class="fa fa-search" aria-hidden="true"></i>
                 </button>
-            </form>
-            <div class="header-chat">
-                <a href="https://pharmacy.codilar.in/chat-with-a-pharmacist/">
-                    <span class="text"> <span class="text-sml">Chat with a</span> Pharmacist </span>
-                    <img src="https://pharmacy.codilar.in/static/version1610442364/frontend/Mgs/claue/en_US/images/icon_chat.svg" alt="Chat">
-                </a>
-            </div>
-            <div class="sign-in">
-                <button class="signin-btn" type="button">
-                    <img src="https://pharmacy.codilar.in/static/version1610442364/frontend/Mgs/claue/en_US/images/icon_user.svg" alt=""> 
-                </button>
-                <span>Sign in</span>
-            </div>
-            <div class="header-location-search">
-                <div class="inner">
-                    <form action=" " class="deliver-search">
-                        <input id="autocomplete" type="text" name="storesearch" placeholder="Deliver to" value="" class="ui-autocomplete-input" autocomplete="off">
-                    </form>
-                </div>
-                <div class="find">
-                    <a href="" id="find-a">
-                        Find a store
-                        <img src="https://pharmacy.codilar.in/static/version1610442364/frontend/Mgs/claue/en_US/images/icon_location.svg" alt="Location">
+                </form>
+                <div class="header-chat">
+                    <a href="https://pharmacy.codilar.in/chat-with-a-pharmacist/">
+                        <div class="chat-wa">
+                            Chat with a<span class="text">Pharmacist</span>
+                        </div>
+                        <div class="wa-icon">
+                            <img src="https://pharmacy.codilar.in/static/version1610442364/frontend/Mgs/claue/en_US/images/icon_chat.svg" alt="Chat">
+                        </div>
                     </a>
                 </div>
-            </div>
-            <div class="minicart-wrapper">
-                <a class="action showcart" href="https://pharmacy.codilar.in/checkout/cart/">
-                    <img class="hidden-lg" id="basket-icon-mobile" src="https://pharmacy.codilar.in/static/version1610466890/frontend/Mgs/claue/en_US/images/icon_minicart_white.svg" alt="Minicart">
-                </a>
-                <div class="nos">9</div>
+                <div class="sign-in">
+                    <button class="signin-btn" type="button">
+                        <img src="https://pharmacy.codilar.in/static/version1610442364/frontend/Mgs/claue/en_US/images/icon_user.svg" alt=""> 
+                    </button>
+                    <span>Sign in</span>
+                </div>
+                <div class="header-location-search">
+                    <div class="inner">
+                        <form action=" " class="deliver-search">
+                            <input id="autocomplete" type="text" name="storesearch" placeholder="Deliver to" value="" class="ui-autocomplete-input" autocomplete="off">
+                        </form>
+                    </div>
+                    <div class="find">
+                        <a href="" id="find-a">
+                            Find a store
+                            <img src="https://pharmacy.codilar.in/static/version1610442364/frontend/Mgs/claue/en_US/images/icon_location.svg" alt="Location">
+                        </a>
+                    </div>
+                </div>
+                <div class="minicart-wrapper">
+                    <a class="action showcart" href="https://pharmacy.codilar.in/checkout/cart/">
+                        <img class="hidden-lg" id="basket-icon-mobile" src="https://pharmacy.codilar.in/static/version1610466890/frontend/Mgs/claue/en_US/images/icon_minicart_white.svg" alt="Minicart">
+                    </a>
+                    <!-- <div class="nos">9</div> -->
+                </div>
             </div>
         </div>
         <div class="menu-hide">
@@ -128,6 +141,9 @@
             <span class="home">Home <span class="symbol">> </span><span class="prod-name">NATURE'S BOUNTY E OIL 30000 IU </span>
             </span>
         </div>
+        <div class="prod-div2">
+            <a href="https://pharmacy.codilar.in/" title="Go to Home Page">Home</a>
+        </div>
         <div class="img-div">
             <div class="slider">
                 <div class="owl-carousel owl-theme owl-main">
@@ -136,15 +152,15 @@
                         <div class="disc">15%<span>OFF</span></div>
                     </div>
                     <div class="item main-item">
-                        <img src="https://pharmacy.codilar.in/media/catalog/product/cache/6d9fbb8adc76b99f917b0d4d58e63bb9/5/0/501.0600001_1_1.jpg">
+                        <img src="https://pharmacy.codilar.in/media/catalog/product/cache/872539f56e123ebefcdcb1f6944e4b27/5/0/501.0600002_1_1.jpg">
                         <div class="disc">15%<span>OFF</span></div>
                     </div>
                     <div class="item main-item">
-                        <img src="https://pharmacy.codilar.in/media/catalog/product/cache/872539f56e123ebefcdcb1f6944e4b27/5/0/501.0400502_1_1.jpg">
+                        <img src="https://pharmacy.codilar.in/media/catalog/product/cache/872539f56e123ebefcdcb1f6944e4b27/5/0/501.0600002_1_1.jpg">
                         <div class="disc">15%<span>OFF</span></div>
                     </div>
                     <div class="item main-item">
-                        <img src="https://pharmacy.codilar.in/media/catalog/product/cache/872539f56e123ebefcdcb1f6944e4b27/5/0/501.0400501_1_1.jpg">
+                        <img src="https://pharmacy.codilar.in/media/catalog/product/cache/872539f56e123ebefcdcb1f6944e4b27/5/0/501.0600002_1_1.jpg">
                         <div class="disc">15%<span>OFF</span></div>
                     </div>
                 </div>
@@ -159,22 +175,24 @@
                 </div>
                 <p class="desc">Contributes to a healthy skin.<span>Size: 74 ML</span></p>
                 <div class="price">
-                    <span class="cost"><span>89.00</span> AED</span>
-                    <div class="quantity">
-                        <span><img src="https://pharmacy.codilar.in/static/version1610534441/frontend/Mgs/claue/en_US/images/Path_3901.svg" alt=""></span>
-                        <span class="count">1</span>
-                        <span><img src="https://pharmacy.codilar.in/static/version1610534441/frontend/Mgs/claue/en_US/images/Path_3902.svg" alt=""></span>
-                    </div>
-                    <button class="add-tb">
-                        <span>Add to basket</span>
-                        <img src="https://pharmacy.codilar.in/static/version1610534441/frontend/Mgs/claue/en_US/images/icon_add_to_basket.svg" alt="Add to basket">
-                    </button>
+                    <span class="cost">AED 89.00</span>
+                    <form class="quan price" method="POST">
+                        <div class="quantity">
+                            <span><img src="https://pharmacy.codilar.in/static/version1610534441/frontend/Mgs/claue/en_US/images/Path_3901.svg" alt=""></span>
+                            <span class="count">1</span>
+                            <span><img src="https://pharmacy.codilar.in/static/version1610534441/frontend/Mgs/claue/en_US/images/Path_3902.svg" alt=""></span>
+                        </div>
+                        <button class="add-tb">
+                            <span>Add to basket</span>
+                            <img src="https://pharmacy.codilar.in/static/version1610534441/frontend/Mgs/claue/en_US/images/icon_add_to_basket.svg" alt="Add to basket">
+                        </button>
+                    </form>
                 </div>
                 <div class="sub-price">
                     <div class="quantity">
-                        <span><img src="https://pharmacy.codilar.in/static/version1610534441/frontend/Mgs/claue/en_US/images/Path_3901.svg" alt=""></span>
+                        <span class="rem"><img src="https://pharmacy.codilar.in/static/version1610534441/frontend/Mgs/claue/en_US/images/Path_3901.svg" alt=""></span>
                         <span class="count">1</span>
-                        <span><img src="https://pharmacy.codilar.in/static/version1610534441/frontend/Mgs/claue/en_US/images/Path_3902.svg" alt=""></span>
+                        <span class="add"><img src="https://pharmacy.codilar.in/static/version1610534441/frontend/Mgs/claue/en_US/images/Path_3902.svg" alt=""></span>
                     </div>
                     <button class="add-tb">
                         <span>Add to basket</span>
@@ -200,22 +218,7 @@
             <div class="product-information-details">
                 <h2>Description</h2>
                 <p>Pure enough to swallow or to apply directly to your skin, our Vitamin E-Oil provides antioxidant support and is needed for healthy skin. When applied to the skin, Vitamin E can help maintain your skin’s natural moisture, which contributes
-                    to a radiant, youthful looking complexion.Benefits: Contributes to healthy skin,Apply to skin as a moisturizer,Pure Enough to Take Orally.</p>
-            </div>
-            <div class="product-information-details">
-                <h2>Benefits</h2>
-                <p>Pure enough to swallow or to apply directly to your skin, our Vitamin E-Oil provides antioxidant support and is needed for healthy skin. When applied to the skin, Vitamin E can help maintain your skin’s natural moisture, which contributes
-                    to a radiant, youthful looking complexion.Benefits: Contributes to healthy skin,Apply to skin as a moisturizer,Pure Enough to Take Orally.</p>
-            </div>
-            <div class="product-information-details">
-                <h2>How to use</h2>
-                <p>Pure enough to swallow or to apply directly to your skin, our Vitamin E-Oil provides antioxidant support and is needed for healthy skin. When applied to the skin, Vitamin E can help maintain your skin’s natural moisture, which contributes
-                    to a radiant, youthful looking complexion.Benefits: Contributes to healthy skin,Apply to skin as a moisturizer,Pure Enough to Take Orally.</p>
-            </div>
-            <div class="product-information-details">
-                <h2>Disclaimer</h2>
-                <p>Pure enough to swallow or to apply directly to your skin, our Vitamin E-Oil provides antioxidant support and is needed for healthy skin. When applied to the skin, Vitamin E can help maintain your skin’s natural moisture, which contributes
-                    to a radiant, youthful looking complexion.Benefits: Contributes to healthy skin,Apply to skin as a moisturizer,Pure Enough to Take Orally.</p>
+                    to a radiant, youthful looking complexion. Benefits: Contributes to healthy skin,Apply to skin as a moisturizer,Pure Enough to Take Orally.</p>
             </div>
         </div>
         <div class="sim-prod">
@@ -826,11 +829,13 @@
                         <div class="container">
                             <img src="https://pharmacy.codilar.in/media/wysiwyg/icons/delivery.png" alt="">
                             <h4>Free delivery <br> on all orders</h4>
-                            <p>We prefer to keep it clear:</p>
-                            <ul>
-                                <li style="margin-bottom: 5px;">No service charges.</li>
-                                <li>No minimum spend.</li>
-                            </ul>
+                            <div style="width: 60%;margin: auto;">
+                                <p>We prefer to keep it clear:</p>
+                                <ul>
+                                    <li style="margin-bottom: 5px;">No service charges.</li>
+                                    <li>No minimum spend.</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="item">
